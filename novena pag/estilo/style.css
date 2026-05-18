@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #c3e0f2 0%, #f5e3c9 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+}
+
+.card {
+    background: white;
+    border-radius: 25px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #d4773c;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.description {
+    text-align: center;
+    color: #7a8c9e;
+    font-size: 13px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #fef9f0;
+    padding: 12px 18px;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+
+.input-group:hover {
+    background: #fff5e8;
+}
+
+.input-group label {
+    font-weight: 600;
+    color: #5c6b7a;
+    font-size: 14px;
+    min-width: 170px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 2px solid #eeddcc;
+    border-radius: 12px;
+    font-size: 15px;
+    transition: all 0.2s;
+    background: white;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #d4773c;
+    box-shadow: 0 0 0 3px rgba(212, 119, 60, 0.1);
+}
+
+.unit {
+    color: #b0a8a0;
+    font-size: 13px;
+    font-weight: 500;
+    min-width: 55px;
+}
+
+button {
+    width: 100%;
+    background: #d4773c;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px 0 10px;
+    transition: background 0.3s;
+    box-shadow: 0 4px 12px rgba(212, 119, 60, 0.3);
+}
+
+button:hover {
+    background: #b85e2a;
+}
+
+.resultado {
+    background: #fef9f0;
+    padding: 22px;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px dashed #eeddcc;
+    margin-top: 15px;
+}
+
+.resultado p {
+    color: #7a8c9e;
+    font-size: 14px;
+}
+
+.resultado .temperatura {
+    font-size: 48px;
+    font-weight: bold;
+    color: #d4773c;
+    margin: 15px 0;
+}
+
+.resultado .detalle {
+    font-size: 12px;
+    color: #b0a8a0;
+    margin-top: 10px;
+    font-style: italic;
+}
